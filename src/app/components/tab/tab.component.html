@@ -1,0 +1,18 @@
+<div *ngIf="stateModal">
+  <app-modal-window></app-modal-window>
+</div>
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="open">
+      <ion-icon name="open" (click)="openModal()"></ion-icon>
+      Открыть окно
+    </ion-tab-button>
+    <ion-tab-button tab="list">
+      <ion-icon name="list" routerLink="list"></ion-icon>
+      Список ссылок
+    </ion-tab-button>
+    <ion-tab-button tab="settings">
+      <ion-icon name="home" routerLink=""></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

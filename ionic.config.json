@@ -1,0 +1,12 @@
+
+{
+ "defaultProject": "task-test", 
+ "projects": {
+  "task-test": {
+    "name": "task-test",
+    "integrations": {},
+    "capacitor": {}
+  },
+    "type": "angular"
+ }
+}
